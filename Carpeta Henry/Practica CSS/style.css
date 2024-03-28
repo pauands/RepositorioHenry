@@ -1,0 +1,33 @@
+body{
+    background: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid rgb(149, 82, 132);
+}
+header{
+    background: white;
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(108, 67, 96);
+    border-bottom: 3px dashed black;
+}
+nav{
+    background: palevioletred;
+    height: 50px;
+    border: 1px solid saddlebrown;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 20px;
+}
+.clearfix{
+    clear: both;
+}
